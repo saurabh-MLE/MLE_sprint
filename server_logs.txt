@@ -1,1 +1,0 @@
-ALERT : Core AI Model Inference Endpoint running at 94% Capacity.
