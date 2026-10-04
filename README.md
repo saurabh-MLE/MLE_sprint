@@ -39,9 +39,9 @@ ChromaDB (Persistent SQLite / HNSW)
 
 1. **Clone the Repository & Install Dependencies:**
    ```bash
-  git clone https://github.com/saurabh-MLE/MLE_Sprint.git
-  cd MLE_Sprint
-  pip install -r requirements.txt
+   git clone https://github.com/saurabh-MLE/MLE_Sprint.git
+   cd MLE_Sprint
+   pip install -r requirements.txt
 
 Ingest Local Documents:
 Place your reference documents inside the data/ directory and run:
