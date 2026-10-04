@@ -43,21 +43,22 @@ ChromaDB (Persistent SQLite / HNSW)
    cd MLE_Sprint
    pip install -r requirements.txt
 
-Ingest Local Documents:
+**Ingest Local Documents:**
+
 Place your reference documents inside the data/ directory and run:
 
-Bash
-python ingest.py
+ ```Bash
+   python ingest.py
 
-Launch the FastAPI Server:
+**Launch the FastAPI Server:**
 
-Bash
-python -m uvicorn rag_app:app --reload --host 127.0.0.1 --port 8000
+ ```Bash
+   python -m uvicorn rag_app:app --reload --host 127.0.0.1 --port 8000
 
-Access the interactive Swagger documentation at: http://127.0.0.1:8000/docs
+   Access the interactive Swagger documentation at: http://127.0.0.1:8000/docs
 
-Run via Docker:
+**Run via Docker:**
 
-Bash
-docker build -t local-rag-app:latest .
-docker run -d -p 8000:8000 --name rag_container local-rag-app:latest
+ ```Bash
+   docker build -t local-rag-app:latest .
+   docker run -d -p 8000:8000 --name rag_container local-rag-app:latest
