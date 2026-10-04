@@ -1,0 +1,3 @@
+ChromaDB stores high-dimensional embeddings persistently on disk using embedded SQLite and parquet segments.
+Global model loading at application startup prevents per-request disk read latency for neural networks.
+Retrieval-augmented generation grounds LLM output by fetching top-K nearest neighbor chunks from a vector database before prompt assembly.
