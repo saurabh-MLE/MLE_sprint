@@ -53,7 +53,7 @@ ChromaDB (Persistent SQLite / HNSW)
 
     python -m uvicorn rag_app:app --reload --host 127.0.0.1 --port 8000
 
-# Access the interactive Swagger documentation at: http://127.0.0.1:8000/docs
+Access the interactive Swagger documentation at: http://127.0.0.1:8000/docs
 
 **Run via Docker:**
 
